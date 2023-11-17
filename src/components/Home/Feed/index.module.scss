@@ -1,0 +1,32 @@
+.feed__component {
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding: 5px 50px;
+    margin: 25px 0px;
+}
+
+.Main .feed__component a {
+    text-decoration: none;
+}
+
+.Main .feed__component a, 
+.Main .feed__component a:visited {
+    color: #000;
+}
+
+.feed__component:first-child {
+    margin-top: 0;
+}
+
+.feed__component:last-child {
+    border-bottom: none;
+}
+
+.postDate {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+.postBody {
+    margin: 1rem 0;
+}
